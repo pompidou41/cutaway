@@ -1,0 +1,83 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(223, 157, 139);
+}
+.content {
+  margin: 5vh 10vh 5vh 10vh;
+  background-color: white;
+  box-shadow: 0 0 3vh -0.5vh black;
+}
+
+.name {
+  text-align: right;
+  font-size: 5vh;
+}
+
+.name #first,
+#last {
+  display: inline-block;
+}
+
+.name #last {
+  margin-left: 1vh;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+}
+
+.avatar {
+  text-align: center;
+}
+.avatar #photo {
+  width: 40vh;
+  height: 40vh;
+  vertical-align: bottom;
+  /* border-radius: 100%;  Округление хз оставить или нет */
+}
+
+.occupation {
+  font-size: 2.5vh;
+}
+
+.icon #vk,
+#mail,
+#telegram,
+#github {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 100%;
+}
+
+.global {
+  border-spacing: 5vh;
+}
+
+.global .coll {
+  width: 33%;
+  vertical-align: bottom;
+}
+
+.second-row .coll {
+  vertical-align: top;
+}
+
+.icons {
+  margin-right: 0;
+  margin-left: auto;
+  border-spacing: 0;
+}
+.icons .coll {
+  padding: 0;
+}
+
+.icon {
+  text-align: right;
+}
+
+.description {
+  font-size: 1.5vh;
+}
